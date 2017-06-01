@@ -1,0 +1,15 @@
+  	    min = is_min(a);
+ 44         n = where_is_min(min, a);
+ 45         if (min == 1)
+ 46         {
+ 47             if (next_min(min, a) == 1)
+ 48                 sa_b(a);
+ 49             else
+ 50                 ra_b(a);
+ 51         }
+ 52         if (min == 0)
+ 53             pa_b(a, b);
+ 54         if (min > 1 && n == 1)
+ 55             ra_b(a);
+ 56         if (min > 1 && n == 0)
+ 57             rra_b(a);
